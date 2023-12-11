@@ -21,11 +21,12 @@ Host and scale the web application seamlessly.
 
 ## Screenshots
 ### Model Training in Google Colab
-
+![Alt Text](/Model%Training.jpeg)
 ### Cloud-Based Storage with Google Cloud Storage
-
+![Alt Text](/storage.jpeg)
 ### Web Application for Real-Time Predictions
-
+![Alt Text](/Web.jpeg)
+![Alt Text](/Out.jpeg)
 
 
 
