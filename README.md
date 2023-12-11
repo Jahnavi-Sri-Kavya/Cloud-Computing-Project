@@ -28,6 +28,20 @@ Host and scale the web application seamlessly.
 ![Alt Text](/Web.jpeg)
 ![Alt Text](/Out.jpeg)
 
+## Contributors
+
+- [Jahnavi Bollimuntha](https://github.com/jahnavi-sri-kavya)
+- [Parisha Rathod](https://github.com/parisha8994)
+- [Nuzat Siddiqua](https://github.com/nuzats19)
+- [Arun Kumar Erram](https://github.com/ArunErram)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+
+
+
 
 
 
