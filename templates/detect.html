@@ -1,0 +1,88 @@
+<html>
+<link href="{{url_for('static',filename="css/detect.css")}}" rel="stylesheet">
+<body>
+<p><h1 align = "center">Diabetes Detection</h1></p>
+<div class="form_class">
+<form method=post action="" >
+  {% if result == None %}
+  {{ form.pregnancies.label }}
+  <br>
+  {{ form.pregnancies }}
+  <br>
+  <br>
+  {{ form.glucose.label }}
+  <br>
+  {{ form.glucose }}
+  <br>
+  <br>
+  {{ form.bloodPressure.label }}
+  <br>
+  {{ form.bloodPressure }}
+  <br>
+  <br>
+  {{ form.skinThickness.label }}
+  <br>
+  {{ form.skinThickness }}
+  <br>
+  <br>
+  {{ form.insulin.label }}
+  <br>
+  {{ form.insulin }}
+  <br>
+  <br>
+  {{ form.bmi.label }}
+  <br>
+  {{ form.bmi}}
+  <br>
+  <br>
+  {{ form.diabetesPedigreeFunction.label }}
+  <br>
+  {{ form.diabetesPedigreeFunction }}
+  <br>
+  <br>
+  {{ form.age.label }}
+  <br>
+  {{ form.age }}
+  <br>
+  <br>
+  {{ form.submit }}
+  {% endif %}
+  </form>
+</div>
+  <!--
+<table align="center">
+
+  {% for field in form %}
+    <tr>
+    <td>{{ field.label }}</td><td>{{ field }}</td>
+    </tr>
+  {% endfor %}
+</table>
+-->
+
+
+<div class = "result_class">
+{% if result != None %}
+<h2>diabetes prediction: {{result}}</h2>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2>What causes diabetes?</h2>
+What all types of diabetes have in common is that they cause people to have too much glucose (sugar) in their blood. But we all need some glucose. It’s what gives us our energy. We get glucose when our bodies break down the carbohydrates that we eat or drink. And that glucose is released into our blood.
+
+We also need a hormone called insulin. It’s made by our pancreas, and it’s insulin that allows the glucose in our blood to enter our cells and fuel our bodies.
+
+If you don’t have diabetes, your pancreas senses when glucose has entered your bloodstream and releases the right amount of insulin, so the glucose can get into your cells. But if you have diabetes, this system doesn’t work.
+<br>
+
+{% endif %}
+</div>
+</body>
+</html>
