@@ -20,9 +20,10 @@ Leverage serverless computing for specific functionalities.
 Host and scale the web application seamlessly.
 
 ## Screenshots
+![Screenshot 1](System Architecture.jpeg)
 
 ### Example 1
-![Screenshot 1](path/to/screenshot1.png)
+
 
 ### Example 2
 ![Screenshot 2](path/to/screenshot2.png)
