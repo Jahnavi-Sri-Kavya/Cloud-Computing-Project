@@ -1,0 +1,21 @@
+body, html
+{
+  height: 100%;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+
+
+.form_class {
+  /* position : absolute; */
+  /* left: 450px; */
+
+}
+.result_class {
+  position:  relative;
+  /* left: 500px; */
+  color: black;
+  align-items: center;
+}
