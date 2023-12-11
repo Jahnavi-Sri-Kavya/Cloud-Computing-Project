@@ -4,7 +4,7 @@
 Predictive Analysis on Diabetic Data is an end-to-end solution leveraging cloud computing technologies to develop a robust predictive analysis system for diabetes. This project utilizes Flask for web application development, Google Cloud Storage for secure data storage, Google Cloud Function for serverless computing, and Google App Engine for scalable web application hosting.
 
 ## System Architecture
-![Screenshot 1](path/to/screenshot1.png)
+![Alt Text](System Architecture.jpeg)
 
 ### 1. Data Preprocessing
 Prepare and clean diabetic patient data for model training.
@@ -20,7 +20,7 @@ Leverage serverless computing for specific functionalities.
 Host and scale the web application seamlessly.
 
 ## Screenshots
-![Screenshot 1](System Architecture.jpeg)
+
 
 ### Example 1
 
